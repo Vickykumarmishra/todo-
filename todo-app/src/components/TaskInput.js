@@ -14,7 +14,7 @@ const TaskInput = () => {
    
     if (task.trim()) {
 
-     
+      toast.success('Task added successfully');
       dispatch(addTask(task));
       setTask('');
 
