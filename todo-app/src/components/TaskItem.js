@@ -32,6 +32,8 @@ const TaskItem = ({ task }) => {
   return (
     <>
     <li style={{marginTop:"1.5rem"}}>
+
+      <div className='col-sm-6 col-lg-12 col-md-12'>
       <input 
         type="checkbox" 
         checked={task.completed} 
@@ -47,11 +49,12 @@ const TaskItem = ({ task }) => {
         <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
           {task.text}
         </span>
-      )}
-      <button onClick={handleEdit} class="btn btn-secondary" style={{margin:'0.5rem'}}>
+      )} </div>
+      <button onClick={handleEdit} class="btn btn-secondary" style={{margin:'0.2rem'}}>
         {isEditing ? 'Save' : 'Edit'}
       </button>
-      <button onClick={handleDelete} class="btn btn-danger" style={{margin:"0.5rem"}}>Delete</button>
+      <button onClick={handleDelete} class="btn btn-danger" style={{margin:"0.2rem"}}>Delete</button>
+      
     </li>
     <ToastContainer/>
     </>
