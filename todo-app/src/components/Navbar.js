@@ -13,12 +13,12 @@ export default function Navbar() {
 //   </div>
 // </nav>
 //     </div>
-<div style={{backgroundColor:'#05b993'}}>
+<div style={{backgroundColor:'green'}}>
       
-      <nav class="navbar navbar-expand-lg bg-body-#05b993" >
-  <div class="container-fluid"  style={{backgroundColor:'#05b993'}}>
+      <nav class="navbar navbar-expand-lg bg-body-green" >
+  <div class="container-fluid"  style={{backgroundColor:'green'}}>
     
-    <a class="navbar-brand" href="/about"><b>My ToDo</b></a>
+    <a class="navbar-brand" href="/about" style={{color:'white'}}><b>My ToDo</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

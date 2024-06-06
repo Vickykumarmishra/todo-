@@ -14,6 +14,8 @@ const TaskItem = ({ task }) => {
     dispatch(deleteTask(task.id),);
 
    
+
+   
   };
 
   const handleToggle = () => {
